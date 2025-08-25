@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #935f5f;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.figuras{
+    width: 100px;
+    height: 100px;
+    background-color: #bc62a1;
+    border-radius: 50px 0px 50px 50px;
+    z-index: 2;
+}
+#distinto{
+    background-color: aqua;
+    z-index: 1;
+    transform: translateY(-7vh) translateX(-7vw);
+}
+
+#distinto2{
+    transform:translateY(-15vh) translateX(2vw) scale(-1, -1);
+    z-index: -1;
+}
